@@ -9,7 +9,7 @@ $dice = array(
 );
 
 $sum  = array_sum($dice);
-$rand = rand(0, $sum);
+$rand = rand(1, $sum);
 
 foreach($dice as $key => $probability)
 {
